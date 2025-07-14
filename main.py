@@ -70,7 +70,7 @@ def callback():
     }
     add_resp = requests.put(add_guild_url, json=add_guild_data, headers=add_guild_headers)
     if add_resp.status_code == 201 or add_resp.status_code == 204:
-        return f"Successfully added {user['username']} to Genie HQ server!"
+        return f"Successfully added {user['username']} to the server!"
     else:
         return f"Failed to add user: {add_resp.status_code} - {add_resp.text}"
 
