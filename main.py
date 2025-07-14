@@ -59,7 +59,7 @@ def callback():
     user_resp.raise_for_status()
     user = user_resp.json()
 
-    # Add user to guild
+    
     add_guild_url = f"{DISCORD_API_BASE_URL}/guilds/{GUILD_ID}/members/{user['id']}"
     add_guild_headers = {
         "Authorization": f"Bot {BOT_TOKEN}",
