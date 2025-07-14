@@ -16,6 +16,12 @@ You can clone the repo through this:
 git clone https://github.com/Madhav703/Discord-OAuth2-Auto-Add-Bot.git
 ```
 
+1. Open the required directory:
+
+```bash
+cd Discord-OAuth2-Auto-Add-Bot
+```
+
 
 2. Install dependencies:
 
