@@ -4,18 +4,23 @@ This is a minimal example of how to implement Discord OAuth2 flow with the `guil
 
 ## Prerequisites
 
-- Python 3.7+
+- Python 3.9+
 - Discord Application with a bot created on the [Discord Developer Portal](https://discord.com/developers/applications)
 - Flask and requests Python packages
 
 ## Setup
 
-1. Clone or download this repository.
+You can clone the repo through this: 
+
+```bash
+git clone https://github.com/Madhav703/Discord-OAuth2-Auto-Add-Bot.git
+```
+
 
 2. Install dependencies:
 
 ```bash
-pip install flask requests
+pip install -r requirements.txt
 ```
 
 3. Create a Discord application and bot:
@@ -57,7 +62,11 @@ Open your browser and go to:
 http://localhost:5000/
 ```
 
-Click "Login with Discord" and authorize the app. Upon successful authorization, you will be automatically added to the Discord server.
+You'll be redirected to the login page of Discord. After logging in, you'll be redirected back to the app, and the bot will join you to the server automatically.
+
+## Example Image
+
+![Example Image](/example.png)
 
 ## Notes
 
@@ -67,6 +76,19 @@ Click "Login with Discord" and authorize the app. Upon successful authorization,
 ## Troubleshooting
 
 - If you get errors related to redirect URI mismatch, double-check the Redirect URI in the Discord Developer Portal matches exactly with the one in the code.
-- Ensure your bot token and client secret are kept private.
+- Ensure your bot token and client secret are kept private and secure.
+
+## Contributing
+
+- Fork this repository and make your changes.
+- Run the tests to ensure everything works as expected.
+- Submit a pull request with a clear description of the changes made.
+- I'll review and merge the changes once they pass the tests and meet the project's standards.
+
+## Facing any Issues?
+
+- You can join our [support server](https://discord.gg/tCceWJARFq) for help and guidance.
+
+
 
 ---
