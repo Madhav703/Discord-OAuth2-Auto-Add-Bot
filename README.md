@@ -68,7 +68,7 @@ Open your browser and go to:
 http://localhost:5000/
 ```
 
-You'll be redirected to the login page of Discord. After logging in, you'll be redirected back to the app, and the bot will join you to the server automatically.
+You'll be redirected to the login page of Discord. After logging in, you'll be redirected back to the app, and the bot will add you to the server automatically.
 
 ## Example Image
 
