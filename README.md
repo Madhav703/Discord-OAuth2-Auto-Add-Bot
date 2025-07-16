@@ -1,6 +1,6 @@
 # Discord OAuth2 Auto-Add Bot Example
 
-This is a minimal example of how to implement Discord OAuth2 flow with the `guilds.join` scope to automatically add authorized users to a Discord server.
+This is a example of how to implement Discord OAuth2 flow with the `guilds.join` scope to automatically add authorized users to a Discord server.
 
 ## Prerequisites
 
@@ -93,7 +93,7 @@ You'll be redirected to the login page of Discord. After logging in, you'll be r
 
 ## Facing any Issues?
 
-- You can join our [support server](https://discord.gg/tCceWJARFq) for help and guidance.
+- You can join our [discord server](https://discord.gg/tCceWJARFq) for help and guidance.
 
 
 
