@@ -72,7 +72,7 @@ You'll be redirected to the login page of Discord. After logging in, you'll be r
 
 ## Example Image
 
-![Example Image](/example.png)
+![Example Image](/preview.png)
 
 ## Notes
 
